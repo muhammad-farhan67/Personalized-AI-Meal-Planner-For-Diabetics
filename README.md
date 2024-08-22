@@ -41,12 +41,34 @@ set ANTHROPIC_API_KEY=your_api_key_here
 ## 🏃‍♂️ Running the App
 
 1. Clone this repository:
-git clone https://github.com/muhammad-farhan67/Personalized-AI_Meal_Planner_For-Diabetics.git
-cd Personalized-AI_Meal_Planner_For-Diabetic
+git clone https://github.com/muhammad-farhan67/Personalized-AI-Meal-Planner-For-Diabetics.git
+cd Personalized-AI-Meal-Planner-For-Diabetic
 
 3. Run the Streamlit app:
 streamlit run app.py
 4. Open your web browser and go to `http://localhost:8501` to use the app.
+
+## 🚀 Deploying to Streamlit Cloud
+
+You can easily deploy this app to Streamlit Cloud for free. Follow these steps:
+
+1. Fork this repository to your GitHub account.
+
+2. Sign up for a free account at [Streamlit Cloud](https://streamlit.io/cloud).
+
+3. From the Streamlit Cloud dashboard, click on "New app".
+
+4. Select your forked repository, branch, and the main Python file (e.g., `app.py`).
+
+5. (Important) In the "Advanced settings" section, add your Anthropic API key as a secret:
+   - Key: `ANTHROPIC_API_KEY`
+   - Value: Your actual Anthropic API key
+
+6. Click "Deploy" and wait for your app to be deployed.
+
+7. Once deployed, you'll get a public URL for your app that you can share with others.
+
+Remember to keep your API key secret and never commit it directly to your repository.
 
 ## 📝 How to Use
 
