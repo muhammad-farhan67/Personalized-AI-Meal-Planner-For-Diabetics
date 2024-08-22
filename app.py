@@ -169,14 +169,18 @@ def main():
         # Add an explanation
             st.markdown("""
             **Chart Explanation:**
-                - The green shaded area represents the normal blood sugar range (70-140 mg/dL).
-                - Bars extending above the green area indicate higher than normal sugar levels.
-                - Ideal targets:
-                - Fasting: Less than 100 mg/dL
-                - Before meals: 70-130 mg/dL
-                - After meals (1-2 hours): Less than 180 mg/dL
-        
-                Please consult with your healthcare provider to interpret these results and adjust your management plan accordingly.
-                    """)
+            - The green shaded area represents the normal blood sugar range (70-140 mg/dL).
+            - Bars extending above the green area indicate higher than normal sugar levels.
+            
+            - Ideal targets:
+            
+            • Fasting: Less than 100 mg/dL
+            
+            • Before meals: 70-130 mg/dL
+            
+            • After meals (1-2 hours): Less than 180 mg/dL
+
+            **:warning: DISCLAIMER:** Please consult with your healthcare provider to interpret these results and adjust your management plan accordingly.
+            """)
 if __name__ == "__main__":
     main()
