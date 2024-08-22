@@ -128,7 +128,7 @@ def main():
         st.title("Personalized AI Meal Planner for Diabetics")
 
     # Sidebar inputs
-    st.sidebar.header("Patient Information")
+    st.sidebar.header("Enter Following Information")
     
     fasting_sugar = st.sidebar.number_input("Fasting Sugar Levels (mg/dL)", min_value=0, max_value=500, step=1)
     pre_meal_sugar = st.sidebar.number_input("Pre-meal Sugar Levels (mg/dL)", min_value=0, max_value=500, step=1)
