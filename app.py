@@ -6,7 +6,7 @@ from reportlab.lib.styles import getSampleStyleSheet
 import io
 import base64
 
-api_key = st.secrets["claude-api-key"]
+ api_key = st.secrets["ANTHROPIC_API_KEY"]
 
 def generate_meal_plan(fasting_sugar, pre_meal_sugar, post_meal_sugar, dietary_preferences):
     client = anthropic.Anthropic(api_key=api_key)
