@@ -1,3 +1,6 @@
 streamlit
 anthropic
 reportlab
+pandas
+matplotlb
+seaborn
