@@ -8,6 +8,7 @@ An AI-powered Streamlit app that generates personalized meal plans for diabetic 
 - 🥗 Select dietary preferences
 - 🤖 AI-generated personalized meal plans
 - 📄 Download meal plans as PDF
+- 📊  Visualize the sugar levels in form of plots
 
 ## 🛠️ Tech Stack
 
@@ -15,6 +16,9 @@ An AI-powered Streamlit app that generates personalized meal plans for diabetic 
 - Streamlit
 - Anthropic API (Claude 3.5 Sonnet)
 - ReportLab
+- Matplotlib
+- Seaborn
+- Pandas
 
 ## 📋 Requirements
 
@@ -22,6 +26,9 @@ To run this project, you'll need to install the following Python libraries:
 streamlit
 anthropic
 reportlab
+matplotlib
+pandas
+seaborn
 
 You can install these libraries using pip:
 pip install streamlit anthropic reportlab
